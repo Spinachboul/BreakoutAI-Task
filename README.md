@@ -1,6 +1,8 @@
 ### **Overview**
 This application is designed to serve as an **AI-powered data enrichment agent**. It allows users to upload data from either a **CSV file** or a **Google Sheet**, process the data by searching for additional information on the web, and use an **LLM (Large Language Model)** to extract relevant information. Users can specify custom query templates and output columns, making the application highly flexible for different use cases.
 
+[View the video demonstration for the task](https://www.loom.com/share/e3cd30374f4448e5befb30454af89353?sid=841f27a6-d99e-4a08-9209-884801c9f191)
+
 ### **Key Features:**
 1. **Data Input:** Supports data upload from a CSV file or Google Sheets.
 2. **Data Processing:** Allows users to select a primary column and specify a query template for web searches.
@@ -137,3 +139,30 @@ Uses the **Google Sheets API** for data loading and writing:
    - Click **"Process Data"** to start enrichment.
    - Monitor the progress with the real-time progress bar.
    - View the processed results in the data table.
+  
+### Application Snippets
+
+1. **HomePage of Streamlit Application**
+   
+![p1](https://github.com/user-attachments/assets/cba0fdfe-2a35-4781-bff0-79acf9396bb3)
+
+2. **Upload csv file locally**
+   
+![p2](https://github.com/user-attachments/assets/d3121767-8569-473d-8350-16c223ed5404)
+
+3. **Upload csv file via Google Sheets**
+   
+![p3](https://github.com/user-attachments/assets/ae65c040-769f-4ef9-bf6a-16f8ea410032)
+
+4. **Selecting primary column whose values will be used for Web Search**
+
+![p4](https://github.com/user-attachments/assets/664170df-bbfd-4c66-bf68-c13b3cc0eeba)
+
+5. **Display of the Results Table**
+
+![p5](https://github.com/user-attachments/assets/715142d4-3c27-41ad-b682-2961d1f3aa4e)
+
+6. **Saving the results table locally in csv format**
+
+![p6](https://github.com/user-attachments/assets/ebec20e8-0eeb-4bd2-9be4-dea6b6ff8c82)
+   
